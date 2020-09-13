@@ -1,0 +1,78 @@
+.add_TaskBtn{
+    color: #2980b9;
+    font-weight: 600;
+    border: none;
+  border-bottom:2px solid #2980b9 ;
+  margin-right: 5px;
+  background: white;
+    /* position: relative; */
+    animation-name: borders;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes borders{
+    0%{
+        color: white;
+        transform: scale(1);
+    }
+    25%{
+        color: white;
+        transform: scale(0.9);
+
+    }
+    50%{
+        color: white;
+        transform: scale(1);
+
+    }
+    75%{
+        color: white;
+        transform: scale(0.9);
+
+    }
+    100%
+    {
+        color: white;
+        transform: scale(1);
+
+    }
+
+}
+
+
+
+
+.plus{
+    background: white;
+    position: relative;
+    animation-name: animie;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animie{
+    0%{
+        color: black;
+        transform: rotateZ(90deg);
+    }
+    25%{
+        color: red;
+        transform: rotateZ(180deg);
+    }
+    50%{
+        color: green;
+        transform: rotateZ(0deg);
+    }
+    75%{
+        color: blue;
+        transform: rotateZ(180deg);
+    }
+    100%
+    {
+        color: black;
+        transform: rotateZ(90deg);
+    }
+
+}

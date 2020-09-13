@@ -1,0 +1,21 @@
+@import url("./transitions.css");
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap");
+.page_theme {
+  background-color: black;
+  overflow: hidden;
+}
+.heading_theme{
+color: aliceblue;
+}
+.input_theme{
+    background: #000;
+}
